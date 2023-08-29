@@ -37,5 +37,6 @@ h2{
     color:#A4A400;
     font-family:Lucida Sans Unicode, Helvetica, Arial;
     text-decoration:underline;
-    line-height:2px;
+    line-height:2em
+    ;
 }
