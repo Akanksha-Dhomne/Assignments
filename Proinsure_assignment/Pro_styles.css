@@ -203,6 +203,9 @@ a:hover{
     text-decoration: none;
     text-transform: uppercase;
 }
+a:hover{
+    color: #2d2640;
+}
 .footer-nav {
     text-align: center;
     padding: 24px 0;
