@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        margin: 0;
+      }
+      .header {
+        position: fixed;
+        top: 0;
+        background-color: black;
+        text-decoration: none;
+        width: 100%;
+        padding: 0;
+      }
+      .flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .links a {
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        padding: 20px;
+      }
+      .class{
+        font-weight: 700;
+        text-transform: capitalize;
+        font-size: 30px;
+        margin-top: 60px;
+      }
+    </style>
+  </head>
+  <body>    
+    <section class="header">
+      <div class="flex">
+        <img src="Netflix-logo.png" alt="netflix" width="150px" height="60px">
+        <div class="links">
+          <a href="#">Home</a>
+          <a href="#">News</a>
+          <a href="#">Dropdown</a>
+        </div>
+      </div>
+    </section>
+     
+    <section>
+    <p class="class">Dropdown menu inside a navigation bar</p>
+    <p>Hover over the <q>Dropdown</q> link to see Dropdown menu.</p>
+    <div style="padding: 5000px;"></div>
+    </section>
+  </body>
+</html>
